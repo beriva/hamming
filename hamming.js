@@ -9,9 +9,21 @@
 function Hamming() {};
 
 Hamming.prototype.compute = function (strand1, strand2) {
-//
-// YOUR CODE GOES HERE
-//
+  var arg = strand1.length;
+  var arg2 = strand.length;
+if (arg === arg2){
+  var arr1 = arg.split();
+  arr2 = arg2.split();
+}
+if (strand1 === strand2){
+  return 0;
+}
+if (strand1.length !== strand2.length){
+  console.error("the DNA is not sathced")
+}
+var xxx = 0;
+for(i = 0; i< xxx; i++){
+  if ()
+}
 };
-
 module.exports = Hamming;
